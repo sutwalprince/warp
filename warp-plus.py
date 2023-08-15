@@ -58,7 +58,7 @@ while SUCCESS_COUNT < 50:
     log.error(error_code)
 
   if response == 200:
-    SUCCESS_COUNT += 1
+    # SUCCESS_COUNT += 1
     log.info(f"PASSED: +1GB (total: {SUCCESS_COUNT}GB, failed: {FAIL_COUNT})")
     if SEND_LOG and HIDE_WC_ID:
       if not MSG_ID:
