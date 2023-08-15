@@ -32,7 +32,7 @@ def digitString(stringLength):
 
 url = f"https://api.cloudflareclient.com/v0a{digitString(3)}/reg"
 
-while true:
+while 1:
   try:
     install_id = genString(22)
     body = {
