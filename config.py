@@ -1,6 +1,6 @@
 ENV = False # or True
 INTERACTIVE_MODE = False # or True
-WARP_CLIENT_ID = "59265f7b-70da-4456-b78c-a930e18c498e"
+WARP_CLIENT_ID = "57f8a652-e813-40f3-b908-bdec66fd00f9"
 SEND_LOG = False # or True
 HIDE_WC_ID = True # or False
 TELEGRAM_BOT_TOKEN = ""
